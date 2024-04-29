@@ -1,0 +1,117 @@
+medium (wire , wireless)
+///     wire       ,       wireless 
+cose  based on dis, based on tech
+security high    , low 
+mobility low     , high 
+
+transmission tech : serial or parrell 
+
+serial : one wire bit by bit  low speed  
+parrell : 8 wires between mcu and the other one high speed
+
+dis adv of the parell
+complex connection 
+cross talk (magnetic)
+clock skew (wire is speed than another wire ) , data not send to the target in same time 
+
+
+data direction 
+1- simplex (to be sender or receiver )
+2- half duplex (can send and receive data but not in the same time ) (talki)
+3- full duplex (can send and receive data in the same time ) (mobile phone )
+
+
+
+receiver and transmitter relationship 
+peer to peer  device to talk to one device 
+salve , master 
+	single master multislave 
+	multi master multisalve 
+	multi master no slave 
+	
+	
+synchronisation 
+synchronous                     , asynchrouns 
+based on the clock have a bit for the clock  , based on a speed 
+
+
+throughput : related to frame formate 
+the useful data in the frame 
+----------------------------------------------------------------
+any communication protocol 
+specs 
+HW interface 
+farme formate 
+
+
+UART 
+univisal asyncrouns receiver tramsimitter 
+USART (not standard )  
+universal synchronous asynchronous receiver transmitter 
+
+the standard is like the can , lin , ethernet 
+
+--------------------------------------------
+UART (hardware interface )
+TX, RX 
+PD1, PD0
+	TX > output 
+	RX > input 
+(you should unit the ground)
+--------------
+UART 
+specs 
+	wired or wireless 
+	if we want it to be wireless it will connect to the wifi or bluetooth and the bluetooth will be wireless 
+
+Serial 
+peer to peer 
+full duplex 
+throuput ??()
+--------------
+frame format 
+start bit       ,the bits (data 5, 6, 7,8,9 ), parity bit (check mechanism ), stop bit(bit or two ) 
+from high to low ,        (data )            ,                              ,  
+
+tx > idle state (high ) no connectio  so also the rx will be also high 
+if it will be in the idle state it will not transmite the data 
+
+
+the parity is a check mechanisim (odd , even )
+odd parity the number of 1's includes the parity bit which is 1 will be odd 
+even parity the number os 0's includes the parity bit which is 0 will be even 
+(if the number of 1's is odd the parity bit will be 1 and if it is even the parity will be 0 )
+
+the data could be wrong and it will not configure that is wrong 
+
+------------------------------------------
+throuput = useful data /total data 
+min = 5/ 1+5+1+1=55 %
+max = 9/1+9+0+1= 81%
+tp from 55% to 81% 
+------------ note >> the perfect tp will be in the spi it send data will 100%
+--------------------------------------------
+
+speed 
+--> bps : bit per second 
+--> bps :byte per second 
+--> fps : frame per second 
+--> bound rate : symbol per second 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+ 
