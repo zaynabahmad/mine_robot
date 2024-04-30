@@ -10,15 +10,19 @@
 * THE HAL LAYER
 * THE MCAL LAYER
 * THE SERVICES OF THE UTILS LAYER
-  ![1714432978804](image/README/1714432978804.png)
+  
+![1714432978804](image/README/1714432978804.png)
 
 ### for the SERVICES LAYER :
 
 ![1714433391146](image/README/1714433391146.png)
+
 the service layer have three files :
 
 the bit_ math.h file includes :
+
 ![1714433127350](image/README/1714433127350.png)
+
 This header file, Bit_Math.h, provides macros for performing common bitwise operations on registers in C.
 
 #### Functionality:
@@ -33,7 +37,9 @@ Improves code readability by using descriptive macros instead of bitwise operato
 Enhances code maintainability by centralizing bit manipulation logic.
 
 **and the STD_LIB.h**
+
 ![1714433452662](image/README/1714433452662.png)
+
 This header prevents multiple inclusions and defines project-specific data types like s16 (signed 16-bit integer) and u32 (unsigned 32-bit integer), potentially mirroring standard types with comments hinting at bit width (e.g., // --> 16s).
 
 ### for the MCAL LAYER :
