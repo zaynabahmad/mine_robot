@@ -8,7 +8,7 @@ make: *** No rule to make target 'all'.  Stop.
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
 
-# Make data base, printed on Tue Apr 30 01:56:13 2024
+# Make data base, printed on Mon Sep  9 01:18:40 2024
 
 # Variables
 
@@ -34,8 +34,6 @@ XDG_SESSION_TYPE = x11
 SNAP_EUID = 1000
 # automatic
 ?D = $(patsubst %/,%,$(dir $?))
-# environment
-IM_CONFIG_PHASE = 1
 # automatic
 @D = $(patsubst %/,%,$(dir $@))
 # environment
@@ -49,13 +47,15 @@ CURDIR := /home/zaynap/Desktop/mine_robot
 # makefile
 SHELL = /bin/sh
 # environment
-SNAP_DATA = /var/snap/code/157
+SNAP_DATA = /var/snap/code/168
+# environment
+VTE_VERSION = 6003
 # environment
 GIO_MODULE_DIR = /home/zaynap/snap/code/common/.cache/gio-modules
 # environment
-VSCODE_NLS_CONFIG = {"locale":"en-us","osLocale":"en-us","availableLanguages":{},"_languagePackSupport":true}
+VSCODE_NLS_CONFIG = {"userLocale":"en-us","osLocale":"en-us","resolvedLanguage":"en","defaultMessagesFile":"/snap/code/168/usr/share/code/resources/app/out/nls.messages.json","locale":"en-us","availableLanguages":{}}
 # environment
-JOURNAL_STREAM = 8:58471
+JOURNAL_STREAM = 8:58436
 # environment
 XDG_CONFIG_DIRS_VSCODE_SNAP_ORIG = /etc/xdg/xdg-ubuntu:/etc/xdg
 # environment
@@ -69,7 +69,7 @@ MAKEFILE_LIST :=
 # automatic
 @F = $(notdir $@)
 # environment
-GIO_LAUNCHED_DESKTOP_FILE = /var/lib/snapd/desktop/applications/code_code.desktop
+IM_CONFIG_PHASE = 1
 # environment
 USERNAME = zaynap
 # environment
@@ -77,17 +77,15 @@ XDG_DATA_DIRS_VSCODE_SNAP_ORIG = /usr/share/ubuntu:/usr/local/share/:/usr/share/
 # environment
 MANDATORY_PATH = /usr/share/gconf/ubuntu.mandatory.path
 # environment
-XDG_DATA_DIRS = /home/zaynap/snap/code/157/.local/share:/home/zaynap/snap/code/157:/snap/code/157/usr/share:/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop
+XDG_DATA_DIRS = /home/zaynap/snap/code/168/.local/share:/home/zaynap/snap/code/168:/snap/code/168/usr/share:/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop
 # environment
 ROS_ETC_DIR = /opt/ros/noetic/etc/ros
 # environment
 DBUS_SESSION_BUS_ADDRESS = unix:path=/run/user/1000/bus
 # environment
-_ = /snap/code/157/usr/share/code/code
-# environment
 ROS_PACKAGE_PATH = /home/zaynap/catvehicle_ws/src:/opt/ros/noetic/share
 # environment
-MANAGERPID = 2194
+MANAGERPID = 2202
 # environment
 TURTLEBOT3_MODEL = burger
 # environment
@@ -97,41 +95,37 @@ LESSOPEN = | /usr/bin/lesspipe %s
 # environment
 LC_NAME = ar_EG.UTF-8
 # environment
-VSCODE_CWD = /home/zaynap
+VSCODE_CWD = /home/zaynap/Desktop/mine_robot
 # environment
-GSETTINGS_SCHEMA_DIR = /home/zaynap/snap/code/157/.local/share/glib-2.0/schemas
+GSETTINGS_SCHEMA_DIR = /home/zaynap/snap/code/168/.local/share/glib-2.0/schemas
 # default
 MAKE_HOST := x86_64-pc-linux-gnu
 # environment
-PATH = /home/zaynap/.local/bin:/home/zaynap/anaconda3/bin:/home/zaynap/anaconda3/condabin:/opt/ros/noetic/bin:/home/zaynap/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
+PATH = /opt/ros/noetic/bin:/home/zaynap/.local/bin:/home/zaynap/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
 # environment
 XDG_SESSION_DESKTOP = ubuntu
 # environment
-COPPELIASIM_ROOT_DIR = /home/zaynap/Downloads/coppliasim/CoppeliaSim_Player_V4_6_0_rev16_Ubuntu20_04/CoppeliaSim_Edu_V4_6_0_rev18_Ubuntu20_04/
-# environment
 GPG_AGENT_INFO = /run/user/1000/gnupg/S.gpg-agent:0:1
 # environment
-SESSION_MANAGER = local/zaynap:@/tmp/.ICE-unix/2343,unix/zaynap:/tmp/.ICE-unix/2343
+SESSION_MANAGER = local/zaynap:@/tmp/.ICE-unix/2349,unix/zaynap:/tmp/.ICE-unix/2349
 # environment
 XDG_RUNTIME_DIR = /run/user/1000
 # environment
 GDK_PIXBUF_MODULE_FILE = /home/zaynap/snap/code/common/.cache/gdk-pixbuf-loaders.cache
 # environment
-SNAP = /snap/code/157
+SNAP = /snap/code/168
 # environment
 ROS_ROOT = /opt/ros/noetic/share/ros
 # environment
-SNAP_VERSION = e170252f
-# environment
-CONDA_PREFIX = /home/zaynap/anaconda3
+SNAP_VERSION = 4849ca9b
 # environment
 XDG_MENU_PREFIX = gnome-
 # environment
 ELECTRON_RUN_AS_NODE = 1
 # environment
-INVOCATION_ID = d8fadd1f79bf4cce93f0bed7be476b51
+INVOCATION_ID = d8cf0c1552ed4587bcaa3fb73dd01532
 # environment
-GDK_PIXBUF_MODULEDIR = /snap/code/157/usr/lib/x86_64-linux-gnu/gdk-pixbuf-2.0/2.10.0/loaders
+GDK_PIXBUF_MODULEDIR = /snap/code/168/usr/lib/x86_64-linux-gnu/gdk-pixbuf-2.0/2.10.0/loaders
 # default
 .FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell archives jobserver output-sync check-symlink load
 # environment
@@ -139,25 +133,25 @@ ELECTRON_NO_ATTACH_CONSOLE = 1
 # environment
 CMAKE_PREFIX_PATH = /home/zaynap/catvehicle_ws/devel:/opt/ros/noetic
 # environment
+LS_COLORS = rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:
+# environment
 ROS_DISTRO = noetic
 # environment
 SSH_AUTH_SOCK = /run/user/1000/keyring/ssh
 # environment
-GIO_LAUNCHED_DESKTOP_FILE_PID = 5446
+MAKELEVEL := 0
 # automatic
 %F = $(notdir $%)
 # environment
 DISPLAY = :0
 # environment
-CONDA_EXE = /home/zaynap/anaconda3/bin/conda
-# environment
 PWD = /home/zaynap/Desktop/mine_robot
 # default
 .LOADED := 
 # environment
-GTK_PATH = /snap/code/157/usr/lib/x86_64-linux-gnu/gtk-3.0
+GTK_PATH = /snap/code/168/usr/lib/x86_64-linux-gnu/gtk-3.0
 # environment
-SSH_AGENT_PID = 2305
+SSH_AGENT_PID = 2311
 # environment
 PKG_CONFIG_PATH = /home/zaynap/catvehicle_ws/devel/lib/pkgconfig:/opt/ros/noetic/lib/pkgconfig
 # environment
@@ -175,17 +169,15 @@ LESSCLOSE = /usr/bin/lesspipe %s %s
 # environment
 VSCODE_CLI = 1
 # environment
-VSCODE_CODE_CACHE_PATH = /home/zaynap/.config/Code/CachedData/e170252f762678dec6ca2cc69aba1570769a5d39
+VSCODE_CODE_CACHE_PATH = /home/zaynap/.config/Code/CachedData/4849ca9bdf9666755eb463db297b69e5385090e3
 # environment
 LOGNAME = zaynap
 # environment
-APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = 1
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = true
 # environment
 SNAP_LIBRARY_PATH = /var/lib/snapd/lib/gl:/var/lib/snapd/lib/gl32:/var/lib/snapd/void
 # environment
 SNAP_CONTEXT = _JOkcEzniRxnrDSQ-PCUyD7vnR5cV5rP3SXB8cf9fYrIrWC8nnOU
-# environment
-CONDA_PROMPT_MODIFIER = (base) 
 # automatic
 +F = $(notdir $+)
 # environment
@@ -203,7 +195,7 @@ LC_TIME = ar_EG.UTF-8
 # environment
 SNAP_REAL_HOME = /home/zaynap
 # environment
-CONDA_DEFAULT_ENV = base
+COLORTERM = truecolor
 # default
 MAKE = $(MAKE_COMMAND)
 # default
@@ -211,9 +203,9 @@ MAKECMDGOALS := all
 # environment
 QT_IM_MODULE = ibus
 # environment
-SNAP_USER_DATA = /home/zaynap/snap/code/157
+SNAP_USER_DATA = /home/zaynap/snap/code/168
 # environment
-SHLVL = 0
+SHLVL = 1
 # environment
 GNOME_SHELL_SESSION_MODE = ubuntu
 # default
@@ -221,7 +213,7 @@ MAKE_VERSION := 4.2.1
 # environment
 USER = zaynap
 # environment
-SNAP_REVISION = 157
+SNAP_REVISION = 168
 # environment
 LC_MONETARY = ar_EG.UTF-8
 # makefile
@@ -234,20 +226,18 @@ ROSLISP_PACKAGE_DIRECTORIES = /home/zaynap/catvehicle_ws/devel/share/common-lisp
 %D = $(patsubst %/,%,$(dir $%))
 # environment
 LC_TELEPHONE = ar_EG.UTF-8
-# environment
-CONDA_SHLVL = 1
 # default
 MAKE_COMMAND := make
+# environment
+OLDPWD = /home/zaynap/Desktop
 # default
 .VARIABLES := 
 # automatic
 *F = $(notdir $*)
 # environment
-GTK_EXE_PREFIX = /snap/code/157/usr
+GTK_EXE_PREFIX = /snap/code/168/usr
 # environment
-VSCODE_IPC_HOOK = /run/user/1000/vscode-eae4d154-1.88-main.sock
-# environment
-BAMF_DESKTOP_FILE_HINT = /var/lib/snapd/desktop/applications/code_code.desktop
+VSCODE_IPC_HOOK = /run/user/1000/vscode-eae4d154-1.93-main.sock
 # environment
 PYTHONPATH = /home/zaynap/catvehicle_ws/devel/lib/python3/dist-packages:/opt/ros/noetic/lib/python3/dist-packages
 # makefile
@@ -291,22 +281,24 @@ SNAP_NAME = code
 # environment
 LC_ALL = C
 # environment
-CONDA_PYTHON_EXE = /home/zaynap/anaconda3/bin/python
-# environment
 GJS_DEBUG_TOPICS = JS ERROR;JS LOG
+# environment
+GNOME_TERMINAL_SCREEN = /org/gnome/Terminal/screen/e682123e_28f0_417c_9de6_ad87e071f332
 # automatic
 ^F = $(notdir $^)
 # environment
 SNAP_UID = 1000
+# environment
+ 
+GNOME_TERMINAL_SERVICE = :1.120
 # default
 SUFFIXES := 
 # environment
 CHROME_DESKTOP = code-url-handler.desktop
 # environment
 WINDOWPATH = 2
- 
 # environment
-LOCPATH = /snap/code/157/usr/lib/locale
+LOCPATH = /snap/code/168/usr/lib/locale
 # default
 .INCLUDE_DIRS = /usr/include /usr/local/include /usr/include
 # environment
@@ -318,11 +310,11 @@ LC_ADDRESS = ar_EG.UTF-8
 # environment
 LANG = C
 # environment
-VSCODE_PID = 5495
+TERM = xterm-256color
 # environment
-MAKELEVEL := 0
+VSCODE_PID = 6054
 # variable set hash-table stats:
-# Load=154/1024=15%, Rehash=0, Collisions=31/176=18%
+# Load=150/1024=15%, Rehash=0, Collisions=25/172=15%
 
 # Pattern-specific Variable Values
 
@@ -330,9 +322,9 @@ MAKELEVEL := 0
 
 # Directories
 
-# . (device 2053, inode 17433903): 7 files, no impossibilities.
+# . (device 2053, inode 17433903): 8 files, no impossibilities.
 
-# 7 files, no impossibilities in 1 directories.
+# 8 files, no impossibilities in 1 directories.
 
 # Implicit Rules
 
@@ -382,12 +374,12 @@ GNUmakefile:
 
 # No general ('VPATH' variable) search path.
 
-# strcache buffers: 1 (0) / strings = 15 / storage = 140 B / avg = 9 B
-# current buf: size = 8162 B / used = 140 B / count = 15 / avg = 9 B
+# strcache buffers: 1 (0) / strings = 16 / storage = 146 B / avg = 9 B
+# current buf: size = 8162 B / used = 146 B / count = 16 / avg = 9 B
 
-# strcache performance: lookups = 18 / hit rate = 16%
+# strcache performance: lookups = 19 / hit rate = 15%
 # hash-table stats:
-# Load=15/8192=0%, Rehash=0, Collisions=1/18=6%
-# Finished Make data base on Tue Apr 30 01:56:13 2024
+# Load=16/8192=0%, Rehash=0, Collisions=1/19=5%
+# Finished Make data base on Mon Sep  9 01:18:40 2024
 
  
